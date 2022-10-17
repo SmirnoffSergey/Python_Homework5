@@ -29,6 +29,11 @@ while game_is_on:
 За один ход можно забрать не более чем 28 конфет.\nВсе конфеты оппонента достаются сделавшему последний ход игроку.')
     game_mode = input('Выберите режим игры: 1 - игрок против игрока, 2 - игрок против компьютера\n').lower()
 
+
+        # Против друг друга
+
+
+
     if game_mode == '1':
         total = 100
         coin = randint(1, 2)
@@ -67,6 +72,10 @@ while game_is_on:
         else:
             print('Player 1 has made the last turn, he got all the candies\nPlayer 1 won!!!')
         game_is_on = another_game()
+
+    
+    
+        # Против компьютера
 
 
     elif game_mode == '2':
