@@ -5,4 +5,4 @@ text = input('Input some text in Russian: ').split()
 for i in text:
     if 'абв' in i:
         text.remove(i)
-print(' '.join(text))
+print('Text without абв is: ' + ' '.join(text))
